@@ -1,0 +1,24 @@
+{
+  "name": "email-node",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.5.1",
+    "nodemailer": "^0.7.1",
+    "nodemon": "^1.7.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "description": "",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oyamasiphula/Node_Email_Sender_App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oyamasiphula/Node_Email_Sender_App/issues"
+  },
+  "homepage": "https://github.com/Oyamasiphula/Node_Email_Sender_App#readme"
+}
