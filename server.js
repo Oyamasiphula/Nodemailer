@@ -6,10 +6,10 @@ Here we are configuring our SMTP Server details.
 STMP is mail server which is responsible for sending and recieving email.
 */
 var smtpTransport = nodemailer.createTransport("SMTP",{
-service: "Gmail",
+service: process.env.NODEMAILER_SERVICE,
 	auth: {
-	user: "username@gmail.com",
-	pass: "password"
+	user: process.env.basic_app,
+	pass: process.env.basic_app_key
 	}
 });
 /*------------------SMTP Over-----------------------------*/
