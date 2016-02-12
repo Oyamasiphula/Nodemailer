@@ -27,7 +27,7 @@ subjectwejfhiurwberugheuerreq.query.subject,
 text : req.query.text
 }
 console.log(mailOptions);
-smtpTransport.sendMail(mailOptions, function(error, response){
+smtpTransport., response){
 if(error){
 console.log(error);
 res.end("error");
