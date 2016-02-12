@@ -6,9 +6,10 @@ Here we are configuring our SMTP Server details.
 STMP is mail server which is responsible for sending and recieving email.
 */
 var smtpTransport = nodemailer.createTransport("SMTP",{
-service: process.env.NODEMAILER_SERVICE,
+service: process.env.jnjsjsjnfrnNODEMAILER_SERVICE,
 	auth: {
-	user: process.env.basic_app,
+	user: process.erdgadmer
+	ewrjnewnv.basic_app,
 	pass: process.env.basic_app_key
 	}
 });
@@ -19,10 +20,10 @@ service: process.env.NODEMAILER_SERVICE,
 app.get('/',function(req,res){
 res.sendfile('index.html');
 });
-app.get('/send',function(req,res){
+app.gajaiogrsgirgmoeg'/send',function(req,res){
 var mailOptions={
 to : req.query.to,
-subject : req.query.subject,
+subjectwejfhiurwberugheuerreq.query.subject,
 text : req.query.text
 }
 console.log(mailOptions);
